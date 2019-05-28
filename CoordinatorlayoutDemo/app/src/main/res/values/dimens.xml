@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">0dp</dimen>
+    <dimen name="app_bar_height">252dp</dimen>
+    <dimen name="text_margin">0dp</dimen>
+    <dimen name="collapsed_header_height">65dp</dimen>
+    <dimen name="init_float_offset_y">185dp</dimen>
+    <dimen name="collapsed_float_offset_y">0dp</dimen>
+    <dimen name="init_float_margin">0dp</dimen>
+    <dimen name="collapsed_float_margin">0dp</dimen>
+</resources>

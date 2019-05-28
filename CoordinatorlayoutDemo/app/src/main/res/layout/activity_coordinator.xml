@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@android:color/black">
+    <RelativeLayout
+        android:id="@+id/scrolling_header"
+        android:layout_width="match_parent"
+        android:layout_height="252dp"
+        android:gravity="center"
+        android:background="@android:color/black">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="scrolling_header"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        app:layout_behavior="@string/header_float_behavior"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@android:color/holo_red_light">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="@string/header_float_behavior"/>
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        app:layout_behavior="@string/header_scrolling_behavior"
+        app:layoutManager="LinearLayoutManager"
+        android:overScrollMode="never"/>
+</android.support.design.widget.CoordinatorLayout>

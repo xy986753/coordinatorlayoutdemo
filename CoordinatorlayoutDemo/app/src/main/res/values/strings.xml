@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CoordinatorlayoutDemo</string>
+    <string name="header_scrolling_behavior">cdld.txg.com.coordinatorlayoutdemo.HeaderScrollingBehavior</string>
+    <string name="header_float_behavior">cdld.txg.com.coordinatorlayoutdemo.HeaderFloatBehavior</string>
+</resources>
